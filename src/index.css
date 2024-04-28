@@ -1,0 +1,11 @@
+
+input[type="checkbox"] {
+    margin-right: 10px; /* Espacio entre el checkbox y el texto */
+    vertical-align: middle; /* Alineación vertical con el texto */
+}
+  
+label {
+    vertical-align: middle; /* Alineación vertical con el checkbox */
+    color: #555;
+}
+  

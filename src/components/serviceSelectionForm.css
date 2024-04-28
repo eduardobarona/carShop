@@ -1,0 +1,55 @@
+/* serviceSelectionForm.css */
+
+/* Estilo para el contenedor principal del formulario */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para el título del formulario */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilo para el contenedor de cada opción */
+  .option-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilo para el checkbox */
+  .option-container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Estilo para la etiqueta del checkbox */
+  .option-container label {
+    color: #555;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón de enviar */
+  button[type="submit"],
+  button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
